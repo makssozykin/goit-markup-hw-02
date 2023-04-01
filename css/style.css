@@ -140,7 +140,7 @@ body {
     background-color: #404BBF;
 }
 
-.features-item-ttl {
+.title-height-three {
     font-family: 'Roboto', sans-serif;
     font-style: normal;
     font-weight: 500;
@@ -173,6 +173,9 @@ body {
 /* Section 3 */
 .team {
     background-color: #F4F4FD;
+}
+.team-list {
+    background-color: #FFFFFF;
 }
 /* Footer */
 .footer {
