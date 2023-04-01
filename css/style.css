@@ -1,7 +1,7 @@
 :root {
     --link-color-hover:#404bbf;
     --nav-item-color:#2e2f42;
-    --adress-list-color:#434455;
+    --address-list-color:#434455;
 }
 body {
     font-family: "Roboto", sans-serif;
@@ -71,9 +71,6 @@ body {
     line-height: 24px;
     letter-spacing: 0.02em;
     color: var(--nav-item-color);
-    flex: none;
-    order: 0;
-    flex-grow: 0;
 }
 .nav.link {
     text-decoration: none;
@@ -86,19 +83,24 @@ body {
 }
 
 /* Adress */
-.adress.list {
+.address {
+    font-style: normal;
+}
+.address.list {
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
     line-height: 24px;
     letter-spacing: 0.02em;
-    color: var(--adress-list-color);
 }
-.adress.link:hover {
+.address.item {
+    color: var(--address-list-color);
+}
+.address.link:hover {
     color: #404bbf;
 }
-.adress.link:focus {
+.address.link:focus {
     color:#404bbf;
 }
 
