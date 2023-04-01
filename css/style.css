@@ -19,6 +19,11 @@ body {
 
 .header-logo {
     /* Auto layout */
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 21px;
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -31,23 +36,14 @@ body {
 }
 
 .header-logo.link {
+    text-decoration: none;
     width: 44px;
     height: 21px;
-    
-    font-family: 'Raleway';
-    font-style: normal;
-    font-weight: 800;
-    font-size: 18px;
-    line-height: 21px;
-    /* identical to box height, or 117% */
-    
     display: flex;
     align-items: center;
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #4D5AE5;
-    /* Inside auto layout */
-    
     flex: none;
     order: 0;
     flex-grow: 0;
@@ -59,7 +55,7 @@ body {
 }
 
 /* Menu Nav */
-.nav {
+.nav-menu {
     position: absolute;
     width: 261px;
     height: 24px;
