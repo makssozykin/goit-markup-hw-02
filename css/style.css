@@ -165,13 +165,20 @@ body {
     left: 156px;
     top: 1016px;
 }
+.title-h2 {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.11;
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    color: var(--nav-item-color);
+}
 
 .section-3 {
-    position: absolute;
-    width: 1440px;
-    height: 732px;
-    left: 0px;
-    top: 1548px;
+background-color: #F4F4FD;
 }
 
 .footer {
