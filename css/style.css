@@ -103,7 +103,7 @@ body {
 .address.link:focus {
     color: var(--link-color-hover);
 }
-
+/* Section Hero */
 .hero {
     background: #2E2F42;
 }
@@ -139,7 +139,7 @@ body {
 .hero-btn:focus {
     background-color: #404BBF;
 }
-
+/* Section 1 */
 .title-height-three {
     font-family: 'Roboto', sans-serif;
     font-style: normal;
@@ -149,7 +149,7 @@ body {
     letter-spacing: 0.02em;
     color: var(--nav-item-color);
 }
-.features-item-desc {
+.item-desc {
     font-family: 'Roboto', sans-serif;
     font-style: normal;
     font-weight: 400;
@@ -174,7 +174,7 @@ body {
 .team {
     background-color: #F4F4FD;
 }
-.team-list {
+.team-member {
     background-color: #FFFFFF;
 }
 /* Footer */
