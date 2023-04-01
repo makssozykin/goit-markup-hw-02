@@ -79,7 +79,7 @@ body {
     font-size: 16px;
     line-height: 24px;
     letter-spacing: 0.02em;
-    color: #2E2F42;
+    color: #2e2f42;
     flex: none;
     order: 0;
     flex-grow: 0;
@@ -87,9 +87,18 @@ body {
 .nav.link {
     text-decoration: none;
 }
+.nav.link:hover {
+    color:#404bbf;
+}
+.nav.link:focus {
+    color:#404bbf;
+}
 
 /* Adress */
-.adress-list {
+.adress {
+    font-style: normal;
+}
+.adress.list {
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 400;
@@ -98,7 +107,9 @@ body {
     letter-spacing: 0.02em;
     color: #434455;
 }
-
+.adress.link:hover {
+    color: #404bbf;
+}
 
 .hero {
     position: absolute;
