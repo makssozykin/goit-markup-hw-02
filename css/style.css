@@ -14,6 +14,9 @@ body {
 .list {
     list-style: none;
 }
+.link {
+        text-decoration: none;
+}
 .header {
     border-bottom: 1px solid rgba(231, 233, 252, 1)
 }
@@ -72,10 +75,9 @@ body {
     font-size: 16px;
     line-height: 24px;
     letter-spacing: 0.02em;
-    color: var(--nav-item-color);
 }
 .nav.link {
-    text-decoration: none;
+    color: var(--nav-item-color);
 }
 .nav.link:hover,
 .nav.link:focus {
