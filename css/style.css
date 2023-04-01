@@ -1,4 +1,6 @@
 :root {
+    --link-color-hover:#404bbf;
+    --nav-item-color:#2e2f42;
 }
 body {
     font-family: "Roboto", sans-serif;
@@ -9,11 +11,6 @@ body {
     background: #FFFFFF;
 }
 .header {
-    position: absolute;
-    width: 1440px;
-    height: 72px;
-    left: 0px;
-    top: 0px;
     border-bottom: 1px solid rgba(231, 233, 252, 1)
 }
 
@@ -28,17 +25,10 @@ body {
     flex-direction: row;
     align-items: center;
     padding: 0px;
-    position: absolute;
-    width: 115px;
-    height: 24px;
-    left: 156px;
-    top: 24px;
 }
 
 .logo.link {
     text-decoration: none;
-    width: 44px;
-    height: 21px;
     display: flex;
     align-items: center;
     letter-spacing: 0.03em;
@@ -79,7 +69,6 @@ body {
     font-size: 16px;
     line-height: 24px;
     letter-spacing: 0.02em;
-    color: #2e2f42;
     flex: none;
     order: 0;
     flex-grow: 0;
@@ -88,7 +77,7 @@ body {
     text-decoration: none;
 }
 .nav.link:hover {
-    color:#404bbf;
+    color: var(--link-color-hover);
 }
 .nav.link:focus {
     color:#404bbf;
@@ -110,21 +99,14 @@ body {
 .adress.link:hover {
     color: #404bbf;
 }
+.adress.link:focus {
+    color:#404bbf;
+}
 
 .hero {
-    position: absolute;
-    width: 1440px;
-    height: 600px;
-    left: 0px;
-    top: 72px;
     background: #2E2F42;
 }
 .hero-title {
-    position: absolute;
-    width: 496px;
-    height: 120px;
-    left: 472px;
-    top: 260px;
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 700;
@@ -140,11 +122,6 @@ body {
     align-items: flex-start;
     padding: 16px 32px;
     gap: 10px;
-    position: absolute;
-    width: 169px;
-    height: 56px;
-    left: 636px;
-    top: 428px;
     background: #4D5AE5;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     border-radius: 4px;
