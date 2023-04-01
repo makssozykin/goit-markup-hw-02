@@ -118,7 +118,7 @@ body {
     color: #FFFFFF;
 }
 .hero-btn {
-    font-family: 'Roboto';
+    font-family: 'Roboto', sans-serif;
     font-style: normal;
     font-weight: 500;
     font-size: 16px;
@@ -140,7 +140,7 @@ body {
     background-color: #404BBF;
 }
 
-.features-item > h3 {
+.features-item-ttl {
     font-family: 'Roboto', sans-serif;
     font-style: normal;
     font-weight: 500;
@@ -149,7 +149,7 @@ body {
     letter-spacing: 0.02em;
     color: var(--nav-item-color);
 }
-.features-item > p {
+.features-item-desc {
     font-family: 'Roboto', sans-serif;
     font-style: normal;
     font-weight: 400;
