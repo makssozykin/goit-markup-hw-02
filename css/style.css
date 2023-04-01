@@ -1,6 +1,7 @@
 :root {
     --link-color-hover:#404bbf;
     --nav-item-color:#2e2f42;
+    --adress-list-color:#434455;
 }
 body {
     font-family: "Roboto", sans-serif;
@@ -69,6 +70,7 @@ body {
     font-size: 16px;
     line-height: 24px;
     letter-spacing: 0.02em;
+    color: var(--nav-item-color);
     flex: none;
     order: 0;
     flex-grow: 0;
@@ -84,9 +86,6 @@ body {
 }
 
 /* Adress */
-.adress {
-    font-style: normal;
-}
 .adress.list {
     font-family: 'Roboto';
     font-style: normal;
@@ -94,7 +93,7 @@ body {
     font-size: 16px;
     line-height: 24px;
     letter-spacing: 0.02em;
-    color: #434455;
+    color: var(--adress-list-color);
 }
 .adress.link:hover {
     color: #404bbf;
