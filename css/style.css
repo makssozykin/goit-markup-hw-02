@@ -19,7 +19,8 @@ body {
 
 .header-logo {
     /* Auto layout */
-    font-family: 'Raleway';
+    font-family: 'Raleway', sans-serif;
+    line-height: 1.17;
     font-style: normal;
     font-weight: 800;
     font-size: 18px;
@@ -55,6 +56,9 @@ body {
 }
 
 /* Menu Nav */
+.list {
+    list-style: none;
+}
 .nav-menu {
     position: absolute;
     width: 261px;
