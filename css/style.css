@@ -108,7 +108,7 @@ body {
     background: #2E2F42;
 }
 .hero-title {
-    font-family: 'Roboto';
+    font-family: 'Roboto', sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 56px;
@@ -140,14 +140,24 @@ body {
     background-color: #404BBF;
 }
 
-.features {
-    position: absolute;
-    width: 1128px;
-    height: 104px;
-    left: 156px;
-    top: 792px;
+.features-item > h3 {
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: var(--nav-item-color);
 }
-
+.features-item > p {
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--address-list-color);
+}
 .section-2 {
     position: absolute;
     width: 1128px;
