@@ -45,7 +45,7 @@ body {
 }
 .header-logo {
     width: 44px;
-    color:var(--nav-item-color)
+    color:var(--nav-item-color);
     order: 0;
 }
 
