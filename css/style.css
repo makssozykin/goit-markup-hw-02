@@ -17,10 +17,9 @@ body {
     border-bottom: 1px solid rgba(231, 233, 252, 1)
 }
 
-.header-logo {
+.logo {
     /* Auto layout */
     font-family: 'Raleway', sans-serif;
-    line-height: 1.17;
     font-style: normal;
     font-weight: 800;
     font-size: 18px;
@@ -36,30 +35,28 @@ body {
     top: 24px;
 }
 
-.header-logo.link {
+.logo.link {
     text-decoration: none;
     width: 44px;
     height: 21px;
     display: flex;
     align-items: center;
     letter-spacing: 0.03em;
+    line-height: 1.17;
     text-transform: uppercase;
     color: #4D5AE5;
     flex: none;
     order: 0;
     flex-grow: 0;
 }
-.header-logo-part {
+.header-logo {
     width: 44px;
     color:#2E2F42;
     order: 0;
 }
 
 /* Menu Nav */
-.list {
-    list-style: none;
-}
-.nav-menu {
+.header-nav {
     position: absolute;
     width: 261px;
     height: 24px;
@@ -71,10 +68,10 @@ body {
     padding: 0px;
     margin: 40px;
 }
-.nav-list {
-
+.nav.list {
+    list-style: none;
 }
-.nav-item {
+.nav.item {
     list-style-type: none;
 }
 
