@@ -158,13 +158,7 @@ body {
     letter-spacing: 0.02em;
     color: var(--address-list-color);
 }
-.section-2 {
-    position: absolute;
-    width: 1128px;
-    height: 412px;
-    left: 156px;
-    top: 1016px;
-}
+/* Section 2 */
 .title-h2 {
     font-family: 'Roboto';
     font-style: normal;
@@ -176,11 +170,11 @@ body {
     text-transform: capitalize;
     color: var(--nav-item-color);
 }
-
+/* Section 3 */
 .section-3 {
-background-color: #F4F4FD;
+    background-color: #F4F4FD;
 }
-
+/* Footer */
 .footer {
     position: absolute;
     width: 1440px;
