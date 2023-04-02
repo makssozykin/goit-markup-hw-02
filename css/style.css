@@ -3,6 +3,7 @@
     --nav-item-color:#2e2f42;
     --address-list-color:#434455;
     --logo-color:#4d5ae5;
+    --pf-btn-color:#F4F4FD;
 }
 body {
     font-family: "Roboto", sans-serif;
@@ -42,18 +43,7 @@ body {
 }
 
 /* Menu Nav */
-.header-nav {
-    position: absolute;
-    width: 261px;
-    height: 24px;
-    left: 347px;
-    top: 24px;
-    display: flex;
-    flex-direction: row;
-    align-items: flex-start;
-    padding: 0px;
-    margin: 40px;
-}
+
 .nav.list {
     list-style: none;
 }
@@ -172,4 +162,24 @@ body {
 }
 .footer-logo {
     color: #f4f4fd;
+}
+
+/* Page Portfolio */
+
+.pf-btn {
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    background-color: var(--pf-btn-color);
+    cursor: pointer;
+    border: 1px solid #E7E9FC;
+    border-radius: 4px;
+}
+.pf-btn:hover,
+.pf-btn:focus {
+    color:#FFFFFF;
+    background-color: #404BBF;
 }
