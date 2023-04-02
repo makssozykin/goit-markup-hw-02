@@ -173,7 +173,7 @@ body {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.04em;
-    color: var(--logo-color)
+    color: var(--logo-color);
     background-color: var(--pf-btn-color);
     cursor: pointer;
     border: 1px solid #E7E9FC;
